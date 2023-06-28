@@ -1,3 +1,60 @@
 body {
-    background-color: orange;
+    background-color: ghostwhite;
+    font-size: 1.5em;
+}
+
+header {
+    background-color: #E97451;
+    margin: 10px;
+    font-size: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.lista {
+    text-align: center;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 a {
+    color: grey;
+    text-decoration:none;
+}
+
+li a {
+    color:black;
+}
+
+li a:visited {
+    color: black;
+}
+
+li a:hover{
+    color:#C04000;
+}
+
+li a:active {
+    color :#CC5500;
 }
